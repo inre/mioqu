@@ -1,0 +1,18 @@
+[package]
+name = "mioqu"
+version = "0.1.0"
+license = "MIT"
+authors = ["Maksim V. <inre.storm@gmail.com>"]
+description   = "MIOQU is a Rust library for queuing and processing background tasks."
+homepage      = "https://github.com/inre/mioqu"
+repository    = "https://github.com/inre/mioqu"
+readme        = "README.md"
+keywords      = ["queue", "async", "non-blocking"]
+exclude       = [
+  ".gitignore",
+  ".travis.yml",
+  "examples/*"
+]
+
+[dependencies]
+mio = "*"
